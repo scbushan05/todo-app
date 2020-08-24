@@ -1,0 +1,80 @@
+.header{
+    background-color: #8B78E6;
+    height: 125px;
+    color: white;
+    padding-top: 25px;
+}
+
+.actions{
+    background-color: #EAF0F1;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.hide-completed{
+    float: right;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.main-form{
+    margin-top: 5px;
+}
+
+.status{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todos{
+    margin-top: 10px;
+}
+
+.list-item{
+    color: #333333;
+    background: #F7F7F7;
+    border: 1px solid #dedfe0;
+    margin: 1.3rem 0;
+    padding-left: 0.5rem;
+    padding: 0.6rem;
+    display: block;
+    transition: background .3s ease;
+}
+
+.todo-name{
+    padding-left: 10px;
+}
+
+.remove-item{
+    float: right;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #submit-form{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+body, html{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    position: relative;
+}
+.content{
+    padding-bottom: 100px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+}
